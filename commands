@@ -1,0 +1,11 @@
+
+
+
+
+
+curl -XPUT 'http://localhost:9200/_template/jp?pretty' -d@jp.json
+
+
+curl -XPOST "http://localhost:9200/mm-jobs-jobposting/0/116?pretty" -d@jpdata.json;
+
+
